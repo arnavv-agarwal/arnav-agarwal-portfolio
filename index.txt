@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Arnav Agarwal
+Arnav Agarwal
+Data Analysis and Data Science Professional
 
 Show Contacts
 
 Email
-richard@example.com
+agarwal.arnavv@gmail.com
 
 Phone
-+1 (213) 352-2795
++1 (858) 241-4149
 
 Birthday
-June 23, 1982
+May 29, 1999
 
 Location
-Sacramento, California, USA
+San Diego, California, USA
 
 # navbar
 
@@ -32,9 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+Welcome to my world of data-driven insights! A seasoned data professional passionate about transforming raw numbers into actionable strategies. With expertise in analyzing product data, implementing data solutions, and leveraging advanced analytics, I thrive in fast-paced environments. Let's collaborate to unlock the potential hidden within your data and drive impactful outcomes together!
 
 
 ## service
