@@ -22,6 +22,12 @@ const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
+// certifications variables
+const certificationsItem = document.querySelectorAll("[data-certifications-item]");
+const modalContainer = document.querySelector("[data-modal-container]");
+const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");
 const modalTitle = document.querySelector("[data-modal-title]");
@@ -29,6 +35,12 @@ const modalText = document.querySelector("[data-modal-text]");
 
 // modal toggle function
 const testimonialsModalFunc = function () {
+  modalContainer.classList.toggle("active");
+  overlay.classList.toggle("active");
+}
+
+// modal toggle function
+const certificationsModalFunc = function () {
   modalContainer.classList.toggle("active");
   overlay.classList.toggle("active");
 }
@@ -49,10 +61,29 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
 }
 
+// add click event to all modal items
+for (let i = 0; i < certificationsItem.length; i++) {
+
+  certificationsItem[i].addEventListener("click", function () {
+
+    modalImg.src = this.querySelector("[data-certifications-company]").src;
+    modalImg.alt = this.querySelector("[data-certifications-company]").alt;
+    modalTitle.innerHTML = this.querySelector("[data-certifications-title]").innerHTML;
+    modalText.innerHTML = this.querySelector("[data-certifications-text]").innerHTML;
+
+    certificationsModalFunc();
+
+  });
+
+}
+
 // add click event to modal close button
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
+// add click event to modal close button
+modalCloseBtn.addEventListener("click", certificationsModalFunc);
+overlay.addEventListener("click", certificationsModalFunc);
 
 
 // custom select variables
