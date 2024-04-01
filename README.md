@@ -1,6 +1,6 @@
-## Website Portfolio
+## Portfolio Website
 
-Welcome to my website portfolio!
+Welcome to my portfolio website!
 
 ## About
 This is a showcase of my work, projects, and skills. It serves as a platform to demonstrate my abilities to potential employers, collaborators, and anyone interested in my work.
